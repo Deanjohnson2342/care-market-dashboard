@@ -1,4 +1,4 @@
-import streamlit as st
+   import streamlit as st
 import pandas as pd
 import numpy as np
 import folium
@@ -143,6 +143,4 @@ if uploaded_file is not None:
 
 else:
     st.warning("👈 Please upload the HSCA Excel file to get started.")
-
-
 
